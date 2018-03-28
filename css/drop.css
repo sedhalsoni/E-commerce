@@ -1,0 +1,44 @@
+/*-----------------------------------------------------------------------------------*/
+/*	MENU
+/*-----------------------------------------------------------------------------------*/
+
+.my ul
+{
+list-style-type:none;
+margin:0px;
+margin-top:0px;
+padding:0px;
+padding-top:15px;
+}
+.my ul li
+{
+display:block;
+position:relative;
+float:left;
+width:140px;
+background-color:#FFFFFF;
+}
+.my ul li a
+{
+text-decoration:none;
+width:95px;
+display:block;
+padding: 20px 0px 0px 20px;
+}
+.my li ul
+{
+display:none;
+} 
+.my li:hover ul
+{
+display:block;
+position:absolute;
+}
+.my li:hover li
+{
+float:none;
+}
+.my li:hover li a:hover 
+{
+background-color:transparent;
+}
