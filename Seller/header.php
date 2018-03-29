@@ -42,8 +42,8 @@
 						<li class="active"><a href="index.php#dashboard">Dashboard</a></li>
 						<li><a href="#">Products</a>
 						<ul>
-							<li><a href="add optics.php">Add Product</a></li>
-							<li><a href="Manage optics.php">Manage Products</a></li>
+							<li><a href="add_product.php">Add Product</a></li>
+							<li><a href="manage_product.php">Manage Products</a></li>
 						</ul>
 						</li>
 						<li><a href="#">Categories</a>

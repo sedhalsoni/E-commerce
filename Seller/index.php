@@ -22,7 +22,7 @@ include("header.php");
 									  <i class="fa fa-plus fa-stack-1x"></i>
 									</span>
 									</a>
-									<h3 class="orangeback"><a href="add optics.php">Add Product</a></h3>
+									<h3 class="orangeback"><a href="add_product.php">Add Product</a></h3>
                                 </div>
 							</div>
 							<div class="col-md-3 portfolio-item">
@@ -33,7 +33,7 @@ include("header.php");
 									  <i class="fa fa-eye fa-stack-1x"></i>
 									</span>
 									</a>
-									<h3 class="orangeback"><a href="Manage optics.php">Manage Product</a></h3>
+									<h3 class="orangeback"><a href="manage_product.php">Manage Product</a></h3>
 								</div>
 							</div>
 							<div class="col-md-3 portfolio-item">

@@ -33,7 +33,7 @@ echo '<script>window.location="../login.php"</script>';
 						<td>$row[0]</td>
 						<td>$row[1]</td>
 						<td><a class='btn btn-info' href='edit_category.php?id=$row[0]'><i class='glyphicon glyphicon-edit icon-white'></i>EDIT</a></td>
-						<td><a class='btn btn-info' onClick=\"javascript: return confirm('Are you sure want to delete category !');\" href='delete_category.php?id=$row[0]&cid=1'><i class='glyphicon glyphicon-trash icon-white'></i>Delete</a></td>
+						<td><a class='btn btn-danger' onClick=\"javascript: return confirm('Are you sure want to delete category !');\" href='delete_category.php?id=$row[0]&cid=1'><i class='glyphicon glyphicon-trash icon-white'></i>Delete</a></td>
 						</tr>";
 				}
 				

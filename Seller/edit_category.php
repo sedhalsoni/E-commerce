@@ -8,12 +8,12 @@ echo '<script>window.location="../login.php"</script>';
  	include("../connection.php");
     include("header.php");
     $cid =$_REQUEST["id"];
-    $q="select * from tb_category where id='".$cid."'";
+    $q="select * from tb_category where cid='".$cid."'";
     $qry = mysqli_query($con,$q);
     $row = mysqli_fetch_array($qry);
     if(isset($_POST['Edit'])){
         $category=$_POST["name"];
-        $sql="update tb_category set name='".$category."' where id='$cid'";
+        $sql="update tb_category set name='".$category."' where cid='$cid'";
         $data=mysqli_query($con,$sql);
         if($data == 1){
             echo '<script language="javascript" type="text/javascript"> alert("category updated successfull !."); document.location.href="manage_category.php"; </script>';

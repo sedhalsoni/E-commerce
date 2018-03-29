@@ -18,7 +18,7 @@
 	
 	if($_REQUEST["cid"]==1)
 	{
-		header ("location:Manage optics.php");
+		header ("location:manage_product.php");
 	}	
 ?>
 
